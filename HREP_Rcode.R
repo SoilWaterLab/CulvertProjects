@@ -83,8 +83,8 @@ setwd(dir)
 
 
 #### Load NAACC data ####
-ws <- readline(prompt="Enter the first three letters of your county, in all caps (e.g., ALB for Albany):")
-#ws <- "ALB"
+ws <- readline(prompt="Enter a three letter watershed or county code, in all caps (e.g., REN for Rensselaer):")
+#ws <- "REN"
 extracted_data <- read.csv(paste(dir,"Data\\",ws,".csv",sep="")) #PC
 #NAACC_data <- read.csv(paste(dir,"Data/",ws,".csv",sep="")) #Mac
 
